@@ -1,0 +1,178 @@
+body {
+	background-color:#e7eaf6;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;	
+	color:#00334e;
+}
+
+#caja_general{
+	margin: 5% 10% 5% 10%;
+	width: 1000px;
+	height: auto;
+	position:relative;
+	border-radius: 20px;
+
+}
+
+
+
+#caja_izquierda {
+	border: 1px solid black;
+	width: 15%;
+	display: inline-block;
+	margin: 0 auto;
+	
+}
+#caja_derecha{
+	background-color: white;
+	height: auto;
+	width: 73%;
+	display:inline-block;
+	margin-right: 5px;
+	float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:#00334e;
+
+}
+
+input {
+	display: none;
+}
+h1{
+	background-color: white;
+	margin:0;
+}
+#encabezado_general{
+	background-color: white; 
+    color: black;
+    text-align:center;
+}
+
+#encabezado_general h4 {
+	margin: 0;
+}
+#encabezado_general p {
+	line-height: 5px;
+}
+
+#foto_perfil {
+	margin-top: 20px;
+	border-radius: 50%;
+	
+}
+
+.redes {
+	display: flex;
+	justify-content: center
+}
+
+#cont_tab_about {
+	text-align: justify;
+}
+.content {
+    background: white; 
+    color: black;
+    min-height: 280px;
+ }
+
+.content div {
+    display: none;
+    padding: 20px 25px 5px;
+}
+
+label {
+	margin-top: 5px;
+	display:block;
+    padding: 15px 25px;
+    background-color: #D7D9D9; 
+    font-weight: 600; 
+    text-align: center;
+    width: 20%;
+
+}
+
+#caja_general label {}
+
+label:hover {
+    color: #fff; 
+    cursor: pointer;
+}
+
+.subtitulo_int {
+	margin:0;
+}
+#cont_tab_skills li {
+	display: flex;
+	justify-content: flex-start;
+	line-height: 25px;
+
+}
+#cont_tab_skills img {
+	width: : 40px;
+	height: 40px;
+}
+
+#cont_tab_skills h4 {
+	margin-left: 20px;
+}
+
+
+#cont_tab_experiencia h4 {
+	margin-bottom: 0;
+
+}
+#cont_tab_experiencia p {
+	margin-top: 5px;
+	text-align: justify;
+
+}
+
+
+#cont_tab_portafolio img {
+	width: : 80px;
+	height: 80px;
+
+}
+
+
+#cont_tab_portafolio li {
+	display: flex;
+	justify-content: flex-start;
+
+}
+#cont_tab_portafolio p {
+	text-align: justify;	
+
+}
+
+
+ul {
+list-style-type: none;
+}
+
+.detalle_cuerpo h3{
+	margin:0;
+
+}
+.detalle_cuerpo p{
+	margin:0;
+
+}
+
+input:checked + label {
+    background: #5588a3; color: #fff;
+}
+
+#tab_about:checked ~ #caja_derecha .content #cont_tab_about,
+#tab_formacion:checked ~ #caja_derecha .content #cont_tab_formacion,
+#tab_skills:checked ~ #caja_derecha .content #cont_tab_skills,
+#tab_experiencia:checked ~ #caja_derecha .content #cont_tab_experiencia,
+#tab_portafolio:checked ~ #caja_derecha .content #cont_tab_portafolio {
+  display: block;
+}
+
+
+
+
